@@ -8,13 +8,12 @@
 }
 
 html, body{
-    background-color: sienna;
     height: 100vh;
     width: 100vw;
 }
 
 body{
-    background: url(../imagens/fundo-madeira.jpg) no-repeat top center fixed;
+    background: sienna url(../imagens/fundo-madeira.jpg) no-repeat top center fixed;
     background-size: cover;
 }
 
@@ -43,6 +42,7 @@ iframe#tela{
 
 section#redes{
     text-align: right;    
+    padding: 100px 20px 0 20px;
 }
 
 section#redes img{
