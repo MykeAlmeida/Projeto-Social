@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 100vw;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+a{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: red;
+    text-decoration: underline;
+    transition: .2s;
+}
